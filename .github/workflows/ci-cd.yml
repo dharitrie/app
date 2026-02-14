@@ -32,19 +32,19 @@ jobs:
           name: .output
           path: .output
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+#   deploy:
+#     needs: build
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
         
-      - name: Download Artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: .output
-          path: .output
+#       - name: Download Artifacts
+#         uses: actions/download-artifact@v4
+#         with:
+#           name: .output
+#           path: .output
           
-      - name: Deploy
-        run: echo "Deployment step placeholder - add your deployment script here"
+#       - name: Deploy
+#         run: echo "Deployment step placeholder - add your deployment script here"
