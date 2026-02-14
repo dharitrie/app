@@ -1,0 +1,29 @@
+# Nuxt dev/build outputs
+.output
+.nuxt
+.data
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+jspm_packages
+
+# Logs
+logs
+*.log
+
+
+# Bun
+# bun.lockb is recommended to be committed
+
+
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs
+
