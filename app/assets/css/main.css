@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'cdfont';
+    src: url('../fonts/crossDutch.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-cd {
+    font-family: 'cdfont', sans-serif;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
