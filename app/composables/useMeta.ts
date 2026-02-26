@@ -15,10 +15,8 @@ export function useMeta({
     twitterDescription: description || "Default description",
     twitterImage: image || "/default-image.png",
     twitterCard: "summary",
-    ogUrl: url || "https://defaulturl.com"
-
-
-    ,
+    ogUrl: url || "https://defaulturl.com",
+    ogImage: image || "/default-image.png"
   });
 
   useHead({
