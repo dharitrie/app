@@ -14,6 +14,8 @@ jspm_packages
 logs
 *.log
 
+*.DS_Store
+
 
 # Bun
 # bun.lockb is recommended to be committed
