@@ -25,7 +25,7 @@
     <button class="hover:scale-110 transition-transform">
      <Icon name="ph:phone-thin" class="w-6 h-6" />
     </button> -->
-        <button @click="isOpen = !isOpen" class="flex flex-col space-y-1.5 p-2">
+        <button @click="isOpen = !isOpen" class="flex flex-col space-y-1.5 p-2" aria-label="Open Menu">
           <span
             :class="['h-[1px] bg-[#D4AF37] transition-all duration-300', isOpen ? 'w-8 rotate-45 translate-y-2' : 'w-8']"></span>
           <span :class="['h-[1px] bg-[#D4AF37] transition-all duration-300', isOpen ? 'opacity-0' : 'w-5']"></span>
