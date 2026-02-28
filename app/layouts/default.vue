@@ -1,12 +1,12 @@
-
-
 <template>
-    <div>
-    <Header/>
-    <NuxtPage/>
-    </div>
+  <div>
+    <Header />
+    <main id="main-content">
+      <NuxtPage />
+    </main>
+  </div>
 
-  
+
 
 </template>
 
