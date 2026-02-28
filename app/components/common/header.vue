@@ -15,10 +15,10 @@
      alt="Dharitrie Logo"
      loading="lazy"
      fetchpriority="high"
-  decoding="async"
-  height="56px"
-  width="56px"
-     class="h-14 w-auto relative z-10 drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]" 
+     decoding="async"
+     height="54px"
+     width="54px"
+     class="relative z-10 drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]" 
  />
 
    </div>
@@ -45,7 +45,7 @@
 </template>
 
 <script setup>
-import logo from '~/assets/img/logo/logo.png'
+import logo from '~/assets/img/logo/logo.webp'
 const isScrolled = ref(false)
 const isOpen = ref(false)
 
