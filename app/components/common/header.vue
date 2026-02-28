@@ -9,10 +9,15 @@
   <div class="flex items-center group cursor-pointer">
    <div class="relative">
     <div class="absolute inset-0 bg-[#D4AF37] blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
+ 
     <img
      :src="logo"
      alt="Dharitrie Logo"
      loading="lazy"
+     fetchpriority="high"
+  decoding="async"
+  height="56px"
+  width="56px"
      class="h-14 w-auto relative z-10 drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]" 
  />
 
@@ -23,12 +28,12 @@
 
 
    <div class="flex items-center space-x-5 text-[#D4AF37]">
-    <NuxtLink to="https://wa.me/..." class="hover:scale-110 transition-transform">
+    <!-- <NuxtLink to="https://wa.me/..." class="hover:scale-110 transition-transform">
      <Icon name="ph:whatsapp-logo-thin" class="w-7 h-7" />
     </NuxtLink>
     <button class="hover:scale-110 transition-transform">
      <Icon name="ph:phone-thin" class="w-6 h-6" />
-    </button>
+    </button> -->
     <button @click="isOpen = !isOpen" class="flex flex-col space-y-1.5 p-2">
      <span :class="['h-[1px] bg-[#D4AF37] transition-all duration-300', isOpen ? 'w-8 rotate-45 translate-y-2' : 'w-8']"></span>
      <span :class="['h-[1px] bg-[#D4AF37] transition-all duration-300', isOpen ? 'opacity-0' : 'w-5']"></span>
