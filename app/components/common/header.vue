@@ -1,7 +1,7 @@
 <template>
   <header :class="[
     'fixed top-0 w-full z-50 transition-all duration-500 px-8 py-3 flex items-center justify-between',
-    isScrolled ? 'bg-[#1a1a1a]/90 backdrop-blur-md border-b border-gold/10' : 'bg-[#1B2623]'
+    isScrolled ? 'bg-[#1a1a1a]/90 backdrop-blur-md border-b border-gold/10' : 'bg-tael'
   ]">
     <div class="flex items-center group cursor-pointer">
       <div class="relative">
@@ -50,7 +50,7 @@ if (process.client) {
 </script>
 
 <style scoped>
-/* Custom gold color if not in tailwind config bg-slate-900 bg-[#F5F2ED] bg-[#1B2623]*/
+/* Custom gold color if not in tailwind config bg-slate-900 bg-[#F5F2ED] bg-tael*/
 .text-gold {
   color: #D4AF37;
 }
