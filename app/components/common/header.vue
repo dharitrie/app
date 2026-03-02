@@ -8,9 +8,10 @@
         <div class="absolute inset-0 bg-[#D4AF37] blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
 
 
-
-        <NuxtImg src="/logo.webp" alt="Dharitrie Logo" format="webp" width="56" height="56" fetchpriority="high"
-          decoding="async" class="h-14 w-auto relative z-10 drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]" />
+        <NuxtLink to="https://dharitrii.com/">
+          <NuxtImg src="/logo.webp" alt="Dharitrie Logo" format="webp" width="56" height="56" fetchpriority="high"
+            decoding="async" class="h-14 w-auto relative z-10 drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]" />
+        </NuxtLink>
 
       </div>
     </div>

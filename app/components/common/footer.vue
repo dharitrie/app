@@ -12,13 +12,13 @@
                 <div class="flex flex-wrap gap-6">
                     <NuxtLink to="/know-more" class="bg-white text-tael border-2 border-white rounded-lg px-4 py-2 font-bold text-sm uppercase 
                transition-all duration-300 ease-in-out 
-               hover:scale-110 hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:bg-white">
+               hover:scale-105 hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:bg-white">
                         Know More
                     </NuxtLink>
 
                     <NuxtLink to="/brochure" class="border-2  rounded-lg px-4 py-2 font-bold text-sm uppercase 
                transition-all duration-300 ease-in-out 
-               hover:scale-110 hover:shadow-[0_0_25px_rgba(255,255,255,0.3)] ">
+               hover:scale-105 hover:shadow-[0_0_25px_rgba(255,255,255,0.3)] ">
                         Download Brochure
                     </NuxtLink>
                 </div>
