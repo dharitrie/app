@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
 
   modules: [
+    "@nuxt/icon",
     "@nuxt/ui",      // This module handles Tailwind and Pinia automatically
     "@nuxt/content",
     "@nuxt/eslint",

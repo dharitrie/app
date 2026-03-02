@@ -1,16 +1,17 @@
 <template>
   <header :class="[
     'fixed top-0 w-full z-50 transition-all duration-500 px-8 py-3 flex items-center justify-between',
-    isScrolled ? 'bg-[#1a1a1a]/90 backdrop-blur-md border-b border-gold/10' : 'bg-[#1B2623]'
+    isScrolled ? 'bg-[#1a1a1a]/90 backdrop-blur-md border-b border-gold/10' : 'bg-tael'
   ]">
     <div class="flex items-center group cursor-pointer">
       <div class="relative">
         <div class="absolute inset-0 bg-[#D4AF37] blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
 
 
-
-        <NuxtImg src="/logo.webp" alt="Dharitrie Logo" format="webp" width="56" height="56" fetchpriority="high"
-          decoding="async" class="h-14 w-auto relative z-10 drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]" />
+        <NuxtLink to="https://dharitrii.com/">
+          <NuxtImg src="/logo.webp" alt="Dharitrie Logo" format="webp" width="56" height="56" fetchpriority="high"
+            decoding="async" class="h-14 w-auto relative z-10 drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]" />
+        </NuxtLink>
 
       </div>
     </div>
@@ -50,7 +51,7 @@ if (process.client) {
 </script>
 
 <style scoped>
-/* Custom gold color if not in tailwind config bg-slate-900 bg-[#F5F2ED] bg-[#1B2623]*/
+/* Custom gold color if not in tailwind config bg-slate-900 bg-[#F5F2ED] bg-tael*/
 .text-gold {
   color: #D4AF37;
 }
