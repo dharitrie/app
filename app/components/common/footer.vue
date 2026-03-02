@@ -3,19 +3,22 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
 
             <div class="space-y-8">
-                <h2 class="text-6xl text-white tracking-tighter">DHARITRII</h2>
+                <h2 class="text-6xl text-white ">DHARITRII</h2>
                 <p class="text-gray-300 leading-loose text-sm max-w-sm tracking-wide">
                     Stop serving toxins at the dinner table. Switch to
                     <span class="font-bold text-white">Dharitrii :</span> — where safety meets tradition.
                 </p>
 
                 <div class="flex flex-wrap gap-6">
-                    <NuxtLink to="/know-more"
-                        class="bg-white text-black border-2 border-white rounded-full px-8 py-3 font-bold text-sm uppercase transition hover:bg-gold hover:border-gold hover:text-white">
+                    <NuxtLink to="/know-more" class="bg-white text-tael border-2 border-white rounded-lg px-4 py-2 font-bold text-sm uppercase 
+               transition-all duration-300 ease-in-out 
+               hover:scale-110 hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:bg-white">
                         Know More
                     </NuxtLink>
-                    <NuxtLink to="/brochure"
-                        class="border-2 border-gold text-white rounded-full px-8 py-3 font-bold text-sm uppercase transition hover:bg-gold hover:text-white">
+
+                    <NuxtLink to="/brochure" class="border-2  rounded-lg px-4 py-2 font-bold text-sm uppercase 
+               transition-all duration-300 ease-in-out 
+               hover:scale-110 hover:shadow-[0_0_25px_rgba(255,255,255,0.3)] ">
                         Download Brochure
                     </NuxtLink>
                 </div>
@@ -26,9 +29,6 @@
                 <ul class="grid grid-cols-1 gap-y-4 uppercase text-xs font-bold tracking-[0.15em]">
                     <li>
                         <NuxtLink to="/" class="hover:text-white transition">Disposables</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/" class="hover:text-white transition">Certificates</NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="/" class="hover:text-white transition">Buyers</NuxtLink>
