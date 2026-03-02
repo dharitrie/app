@@ -25,6 +25,18 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
     "@nuxt/test-utils",
   ],
+  image: {
+    // Define standard breakpoints for auto-resizing
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+    },
+    // Force modern formats which are much smaller than PNG/JPG
+    format: ['webp', 'avif']
+  }
 
   // If you have custom Pinia settings, use the pinia object here
 
