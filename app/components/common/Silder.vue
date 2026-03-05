@@ -7,13 +7,13 @@
                 <div class="max-w-12xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center py-12">
 
                     <div class="text-white space-y-4 md:space-y-6 text-center md:text-left order-2 md:order-1">
-                        <h3 class="text-sm md:text-xl font-bold tracking-tight uppercase opacity-90">
+                        <!-- <h3 class="text-sm md:text-xl font-bold tracking-tight uppercase opacity-90">
                             {{ slide.brand }}
-                        </h3>
-                        <h2
-                            class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black uppercase leading-[1] md:leading-[0.9]">
+                        </h3> -->
+                        <h3
+                            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase leading-[1] md:leading-[0.9]">
                             {{ slide.title }}
-                        </h2>
+                        </h3>
                         <p class="text-base md:text-lg opacity-90 max-w-sm mx-auto md:mx-0 leading-relaxed">
                             {{ slide.description }}
                         </p>
@@ -38,17 +38,17 @@
             </div>
         </div>
 
-        <button @click="prev"
+        <button @click="prev" aria-label="left"
             class="hidden sm:flex absolute left-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 items-center justify-center bg-[#fff8e7] rounded-full text-[#ff6b58] shadow-lg hover:scale-110 transition-transform active:scale-95">
             <span class="text-2xl">←</span>
         </button>
-        <button @click="next"
+        <button @click="next" aria-label="right"
             class="hidden sm:flex absolute right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 items-center justify-center bg-[#fff8e7] rounded-full text-[#ff6b58] shadow-lg hover:scale-110 transition-transform active:scale-95">
             <span class="text-2xl">→</span>
         </button>
 
         <div class="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex gap-3">
-            <button v-for="(_, i) in props.slides" :key="i" @click="currentSlide = i"
+            <button v-for="(_, i) in props.slides" :key="i" @click="currentSlide = i" aria-label="slide"
                 class="h-2 md:h-3 rounded-full transition-all duration-300"
                 :class="currentSlide === i ? 'bg-white w-6 md:w-8' : 'bg-white/40 w-2 md:w-3'"></button>
         </div>
