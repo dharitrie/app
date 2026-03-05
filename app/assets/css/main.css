@@ -25,3 +25,39 @@
 .text-tael {
     color: #1B2623;
 }
+
+@font-face {
+    font-family: 'Belagak';
+    src: url('~/assets/fonts/Belagak.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'impasse-thin';
+  src: url('~/assets/fonts/Impasse.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ImpasseBold';
+  src: url('~/assets/fonts/ImpasseBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-belagak {
+    font-family: 'Belagak', sans-serif;
+}
+
+.font-impasse-thin {
+    font-family: 'impasse-thin', sans-serif;
+}
+
+.font-impasse-bold {
+    font-family: 'ImpasseBold', sans-serif;
+}

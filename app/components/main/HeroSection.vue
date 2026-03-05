@@ -1,16 +1,16 @@
 <template>
-    <section class="relative bg-tael min-h-[80vh] flex items-center px-6 md:px-20 py-20 overflow-hidden">
+    <section class="relative bg-tael min-h-[88vh] flex items-center px-6 md:px-20 py-20 overflow-hidden">
         <div class="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center gap-12">
 
-            <div class="text-white space-y-2">
-                <h1 class="font-light leading-[0.85] tracking-tighter">
-                    <span class="block text-5xl md:text-7xl uppercase">Born from the earth, </span>
-                    <span class="block text-5xl md:text-7xl uppercase">crafted for your table.</span>
+            <div class="text-white space-y-2 ">
+                <h1 class="font-light leading-[0.85] tracking-tighter font-impasse-thin">
+                    <span class="block text-5xl md:text-5xl uppercase">Born from the earth, </span>
+                    <span class="block text-5xl md:text-5xl uppercase">crafted for your table.</span>
                 </h1>
-                <h2 class="text-3xl md:text-3xl font-bold py-4">The soul of good food </h2>
-                <h1 class="font-light leading-[0.85] tracking-tighter">
-                    <span class="block text-5xl md:text-7xl uppercase text-[#fdf5e6]">starts </span>
-                    <span class="block text-5xl md:text-7xl uppercase text-[#fdf5e6]">here</span>
+                <h2 class="text-3xl md:text-3xl font-impasse-bold font-bold py-6">The soul of good food </h2>
+                <h1 class="font-light leading-[0.85] tracking-tighter font-impasse-thin">
+                    <span class="block text-5xl md:text-5xl uppercase text-[#fdf5e6]">starts </span>
+                    <span class="block text-5xl md:text-5xl uppercase text-[#fdf5e6]">here</span>
                 </h1>
 
                 <div class="pt-10">
@@ -30,8 +30,8 @@
                     <div class="overflow-hidden border-4 border-white/5 rounded-[40%_60%_70%_30%_/_40%_50%_60%_40%]">
 
 
-                        <NuxtImg src="/heroSection/hero.png" alt="Dharitrii Premium Plates" preload width="720"
-                            height="520" sizes="xs:100vw sm:100vw md:50vw lg:720px" quality="80"
+                        <NuxtImg src="/heroSection/hero.png" alt="Dharitrii Premium Plates" fetchpriority=high
+                            width="620" height="460" sizes="xs:100vw sm:100vw md:50vw lg:620px" quality="80"
                             class="transition-all duration-500 hover:scale-106" />
                     </div>
 
