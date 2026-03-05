@@ -27,8 +27,8 @@
                                 class="relative h-58 md:h-96 lg:h-[58vh] w-[80%] md:w-[85%] aspect-square bg-[#fff8e7] 
                 overflow-hidden shadow-2xl transition-transform duration-700 hover:scale-105">
 
-                                <img fetchpriority="low" loading="eager" :src="slide.image" :alt="slide.title"
-                                    alt="sliderImg" width="100%" height="100%" class="w-full h-full object-cover" />
+                                <img loading="lazy" :src="slide.image" :alt="slide.title" alt="sliderImg" width="100%"
+                                    height="100%" class="w-full h-full object-cover" />
                             </div>
                         </div>
 
