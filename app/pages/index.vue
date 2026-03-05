@@ -8,36 +8,37 @@
 <script setup>
 import HeroSection from "@/components/main/HeroSection.vue";
 import Silder from "@/components/common/Silder.vue";
-import slide1 from "@/assets/img/sliderImg/slide1.png"
-import slide2 from "@/assets/img/sliderImg/slide2.png"
-import slide3 from "@/assets/img/sliderImg/slide3.png"
-import slide4 from "@/assets/img/sliderImg/slide4.png"
+
 
 
 const slides = [
     {
         brand: 'Dharitrii',
         title: 'Authentic Clay Cookware',
+        loadingType: 'eager',
         description: 'Retain 100% of nutrients with our flame-resistant, handcrafted terracotta.',
-        image: slide1
+        image: "https://res.cloudinary.com/dub8zwfnw/image/upload/v1772717414/slide3_ywgu4g.png"
     },
     {
         brand: 'Dharitrii',
         title: 'Naturally Alkaline',
+        loadingType: 'lazy',
         description: 'Balance the pH of your food for a healthier, traditional dining experience.',
-        image: slide2
+        image: "https://res.cloudinary.com/dub8zwfnw/image/upload/v1772717413/slide4_f1y0ce.png"
     },
     {
         brand: 'Dharitrii',
         title: 'Earth-To-Table',
+        loadingType: 'lazy',
         description: 'Sustainable, plastic-free utensils that breathe life into every meal.',
-        image: slide3
+        image: "https://res.cloudinary.com/dub8zwfnw/image/upload/v1772717413/slide1_frcmyi.png"
     },
     {
         brand: 'Dharitrii',
         title: 'The Artisanal Touch',
+        loadingType: 'lazy',
         description: 'Hand-molded by local masters to bring rustic elegance to your kitchen.',
-        image: slide4
+        image: "https://res.cloudinary.com/dub8zwfnw/image/upload/v1772717413/slide2_aegbot.png"
     }
 ];
 
