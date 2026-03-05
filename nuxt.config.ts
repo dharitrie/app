@@ -36,7 +36,21 @@ export default defineNuxtConfig({
     },
     // Force modern formats which are much smaller than PNG/JPG
     format: ['webp', 'avif']
-  }
+  },build: {
+    transpile: ['@heroicons/vue'], // Force tree-shaking on specific libs
+  },
+  nitro: {
+    compressPublicAssets: true, // Creates .gz and .br versions of assets for smaller transfer sizes
+  },
+  vite: {
+    esbuild: {
+      drop: ['console', 'debugger'], // Removes console logs and debuggers from production build
+    },
+    build: {
+      cssMinify: 'esbuild',
+      chunkSizeWarningLimit: 500,
+    },
+  },
 
   // If you have custom Pinia settings, use the pinia object here
 
