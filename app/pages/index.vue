@@ -15,7 +15,7 @@ const slides = [
     {
         brand: 'Dharitrii',
         title: 'Authentic Clay Cookware',
-        loadingType: 'eager',
+        loadingType: 'lazy',
         description: 'Retain 100% of nutrients with our flame-resistant, handcrafted terracotta.',
         image: "https://res.cloudinary.com/dub8zwfnw/image/upload/v1772717414/slide3_ywgu4g.png"
     },
