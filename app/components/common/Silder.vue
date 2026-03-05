@@ -10,10 +10,10 @@
                         <!-- <h3 class="text-sm md:text-xl font-bold tracking-tight uppercase opacity-90">
                             {{ slide.brand }}
                         </h3> -->
-                        <h3
+                        <h2
                             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase leading-[1] md:leading-[0.9]">
                             {{ slide.title }}
-                        </h3>
+                        </h2>
                         <p class="text-base md:text-lg opacity-90 max-w-sm mx-auto md:mx-0 leading-relaxed">
                             {{ slide.description }}
                         </p>
