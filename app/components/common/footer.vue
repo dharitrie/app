@@ -65,15 +65,15 @@
                 </div>
 
                 <div class="flex gap-4 pt-4">
-                    <a href="#"
+                    <a href="#" aria-label="Follow On Facebook"
                         class="bg-white text-black w-10 h-10 flex items-center justify-center rounded-full hover:bg-gold hover:text-white transition">
                         <Icon name="uil:facebook-f" size="18" aria-label="Facebook" />
                     </a>
-                    <a href="#"
+                    <a href="#" aria-label="Follow On LinkedIn"
                         class="bg-white text-black w-10 h-10 flex items-center justify-center rounded-full hover:bg-gold hover:text-white transition">
                         <Icon name="uil:linkedin" size="18" aria-label="LinkedIn" />
                     </a>
-                    <a href="#"
+                    <a href="#" aria-label="Follow On Instagram"
                         class="bg-white text-black w-10 h-10 flex items-center justify-center rounded-full hover:bg-gold hover:text-white transition">
                         <Icon name="uil:instagram" size="18" aria-label="Instagram" />
                     </a>
