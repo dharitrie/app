@@ -30,7 +30,7 @@
                     <div class="overflow-hidden border-4 border-white/5 rounded-[40%_60%_70%_30%_/_40%_50%_60%_40%]">
 
 
-                        <NuxtImg src="/heroSection/hero.png" alt="Dharitrii Premium Plates" fetchpriority=high
+                        <NuxtImg src="https://res.cloudinary.com/dub8zwfnw/image/upload/v1773067460/hero_zvyiob.png" alt="Dharitrii Premium Plates" fetchpriority=high
                             width="620" height="460" sizes="xs:100vw sm:100vw md:50vw lg:620px" quality="80"
                             class="transition-all duration-500 hover:scale-106" />
                     </div>
